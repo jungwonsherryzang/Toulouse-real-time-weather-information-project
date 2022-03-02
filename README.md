@@ -11,8 +11,7 @@ Use Toulouse Metropole website for fetching Toulouse Transportation information 
 
 ### USAGE
 Fetching data from the website by API using Javascrip programming language
-``` 
-Javascript
+```  javascript
 
 
 fetch('https://data.toulouse-metropole.fr/api/records/1.0/search/?dataset=stations-meteo-en-place&rows=54')
@@ -23,8 +22,7 @@ fetch('https://data.toulouse-metropole.fr/api/records/1.0/search/?dataset=statio
 ```
 
 For the pop-up information about the weather, I represented Humidity, Rain and Temperature information!
-```
-Javascript
+``` javascript
 var popupContent = "<b>" + 
                 self.target.station_name + "</b><br/>" +
                 "Humidity: "    + record.fields.humidite + "<br/>" +
