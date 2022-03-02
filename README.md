@@ -1,6 +1,7 @@
 # Toulouse-real-time-weather-information-project
 
 This project is presenting the real-time weather map of Toulouse city.
+
 I put the weather information based on the bus stop on Toulouse.
 
 ## RESOURCES
@@ -10,6 +11,7 @@ Use Toulouse Metropole website for fetching Toulouse Transportation information 
 
 ### USAGE
 ``` javascript
+fetching data from the website using with API
 
 fetch('https://data.toulouse-metropole.fr/api/records/1.0/search/?dataset=stations-meteo-en-place&rows=54')
 .then(response => response.json()) //return a JSON object of the result
