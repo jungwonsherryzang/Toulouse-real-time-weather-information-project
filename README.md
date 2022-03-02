@@ -30,4 +30,5 @@ var popupContent = "<b>" +
                 "Temperature: " + record.fields.temperature_en_degre_c + "<br/>";
 ```
 
-
+#### OUTCOME
+<img src="/outcome_screenshot.png" width="40%" height="30%" title="Toulouse Real-time Weather Map" alt="Toulouse Real-time Weather Map"></img>
