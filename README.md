@@ -1,8 +1,9 @@
 # Toulouse-real-time-weather-information-project
 
-This project is presenting the real-time weather map of Toulouse city.
+Weather is the most important daily information. It could change so easily that we need to get the fastest real-time information. 
+This project is presenting the real-time weather map of Toulouse city based on the bus station on Toulouse city.
+The bus stations that are listed in the station list file, it should show the real-time humidity, rain and temperature.
 
-I put the weather information based on the bus stop on Toulouse.
 
 ## RESOURCES
 Use Mapbox for attaining Token: https://www.mapbox.com/ 
