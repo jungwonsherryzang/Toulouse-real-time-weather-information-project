@@ -12,7 +12,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox/streets-v11',
-    accessToken: 'pk.eyJ1Ijoic2hlcnJ5emFuZyIsImEiOiJja21mM2h4eDAxMG4yMnZsajhnNnFucGwwIn0.jOk83QiWltIZOuy70y8NKg'
+    accessToken: 'pk.eyJ1Ijoic2hlcnJ5emFuZyIsImEiOiJjbDF1M2FlMmgxN2RyM2pxcTBkbXhheHk4In0.hEmhm8--khHLUqszV-0dFg'
 }).addTo(mymap);
 
 fetch('https://data.toulouse-metropole.fr/api/records/1.0/search/?dataset=stations-meteo-en-place&rows=54')
