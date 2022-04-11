@@ -5,9 +5,10 @@ This project is presenting the real-time weather map of Toulouse city.
 I put the weather information based on the bus stop on Toulouse.
 
 ## RESOURCES
-Use Mapbox for getting API https://www.mapbox.com/ 
+Use Mapbox for attaining Token: https://www.mapbox.com/ 
+Leaflet API References: https://leafletjs.com/SlavaUkraini/reference.html
 
-Use Toulouse Metropole website for fetching Toulouse Transportation information https://data.toulouse-metropole.fr/pages/accueilv3/
+Use Toulouse Metropole website for fetching Toulouse Transportation information: https://data.toulouse-metropole.fr/pages/accueilv3/
 
 ### USAGE
 Fetching data from the website by API using Javascrip programming language
@@ -15,9 +16,11 @@ Fetching data from the website by API using Javascrip programming language
 
 
 fetch('https://data.toulouse-metropole.fr/api/records/1.0/search/?dataset=stations-meteo-en-place&rows=54')
-.then(response => response.json()) //return a JSON object of the result
-.then(processData)
-.catch(err => console.error(err));
+  .then(response 
+    => response.json()) //return a JSON object of the result
+  .then(processData)
+  .catch(err 
+    => console.error(err));
 
 ```
 
