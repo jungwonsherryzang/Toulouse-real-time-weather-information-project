@@ -1,5 +1,5 @@
-var thermometerIcon = L.icon({
-    iconUrl: './thermometer.png',
+var weatherIcon = L.icon({
+    iconUrl: './weather-news.png',
     iconSize:     [38, 40], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
@@ -52,7 +52,7 @@ function processData(data){
 
     for(var i = 0; i < data.records.length; i++) {
         var marker = L.marker([data.records[i].fields.latitude, data.records[i].fields.longitude],
-                                { icon: thermometerIcon }).addTo(mymap);
+                                { icon: weatherIcon }).addTo(mymap);
         markers.push(marker); //add to arrays
         marker.station_id   = data.records[i].fields.id_numero;
         marker.station_name = data.records[i].fields.id_nom;
