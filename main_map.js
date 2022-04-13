@@ -18,7 +18,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 fetch('https://data.toulouse-metropole.fr/api/records/1.0/search/?dataset=stations-meteo-en-place&rows=54')
 .then(response => 
-    response.json()) //return a JSON object of the result
+    response.json())
 .then(processData)
 .catch(err => 
     console.error(err));
