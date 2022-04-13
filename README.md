@@ -35,4 +35,4 @@ var popupContent = "<b>" +
 ```
 
 #### OUTCOME
-<img src="/outcome_screenshot.png" width="60%" height="50%" title="Toulouse Real-time Weather Map" alt="Toulouse Real-time Weather Map"></img>
+<img width="811" alt="weathermap_outcome" src="https://user-images.githubusercontent.com/91277856/163258115-86d002e0-77ee-4cf4-a4c2-f5ddb3839a1a.png">
