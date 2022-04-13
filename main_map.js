@@ -32,7 +32,7 @@ function onMarkerClick(self) {
     } else {
         fetch(baseUrl + datasets_from_ids[self.target.station_id]) 
         .then(response => 
-            response.json()) //return a JSON object of the result
+            response.json())
         .then((data) => {
             var record = data.records[0];
             var popupContent = "<b>" + 
